@@ -1,0 +1,15 @@
+{
+  "name": "bhut-backend-prova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1"
+  }
+}
