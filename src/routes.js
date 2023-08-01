@@ -40,6 +40,7 @@ routes.post('/api/createCar', async (req, res) => {
     }
     
 
+// Serviço: getLogs - Consulta todos os registro salvos na tabela log.
 routes.get('/api/logs', async (req, res) => {
     try {
         const logs = await logCar.find()
