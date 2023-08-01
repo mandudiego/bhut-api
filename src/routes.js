@@ -29,7 +29,7 @@ routes.post('/api/createCar', async (req, res) => {
         const createdCar = response.data
 
         const logData = {
-            car_id: createdCar.id,
+            car_id: createdCar._id,
         }
         const log = new logCar(logData)
         await log.save()
@@ -42,10 +42,11 @@ routes.post('/api/createCar', async (req, res) => {
 
 routes.get('/api/logs', async (req, res) => {
     try {
-        const logs = await logCar.find({})
+        const logs = await logCar.find()
 
         res.json(logs)
     } catch (error) {
+        console.log(error)
         res.status(500).json({ erro: error.message });
     }
 })

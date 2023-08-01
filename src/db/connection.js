@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 async function main() {
     try {
         await mongoose.connect(
-            // MwGr1feyZQLHSuZr
-            'mongodb+srv://mandudiego:MwGr1feyZQLHSuZr@logcars.cqapqgq.mongodb.net/?retryWrites=true&w=majority'
+            // K999lgVil4MlJcZy
+            'mongodb+srv://mandudiego:K999lgVil4MlJcZy@dblogs.mcixwfl.mongodb.net/?retryWrites=true&w=majority'
         )
         console.log('BD connected successful')
     } catch (error) {
