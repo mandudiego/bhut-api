@@ -87,10 +87,10 @@ npm start
 - No corpo da requisição, insira os dados do carro no seguinte formato:
 ```json
 {
-  "title": "Novo Carro",
-  "brand": "Marca do Novo Carro",
-  "price": "100000",
-  "age": 2
+  "title": "Modelo do carro",
+  "brand": "Marca do carro",
+  "price": "25.000",
+  "age": 2010
 }
 ```
 ## Serviço 3 - logs
