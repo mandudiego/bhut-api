@@ -72,7 +72,7 @@ npm start
 - O servidor irá iniciar com a mensagem 'Express started at http://localhost:3000'
 
 ## Testando a Aplicação
-- Após seguir as etapas de instalação e configuração do projeto, você pode testar a aplicação utilizando uma Ferramente Postman ou qualquer outra ferramenta similar para fazer requisições HTTP.
+- Após seguir as etapas de instalação e configuração do projeto, você pode testar a aplicação utilizando uma ferramenta como Postman ou qualquer outra ferramenta similar para fazer requisições HTTP.
 ## Serviço 1 - listCars:
 - Abra o Postman ou qualquer outra ferramenta de Requisiçoes HTTP.
 - Crie uma nova requisição de tipo GET.
