@@ -12,6 +12,12 @@ Para desenvolvimento deste desafio, utilizei um servidor 'Express.js', um servi�
 - MongoDB (versão utilizada: 5.7.0)
 - RabbitMQ (versão utilizada: 3.12.2)
 
+## Instalando Node.JS
+
+  - 1º Acesse: https://nodejs.org/pt-br/download
+  - 2º Selecione o instalador de acordo com seu Sistema Operacional
+  - 3º Execute o instalador com as configurações padrão
+
 ## Instalando RabbitMQ
 
 O RabbitMQ é um servidor de mensageria que permite a comunicação assíncrona entre diferentes partes do sistema. Neste projeto o RabbitMQ é conectado de forma local, estabelecendo conexão na URL 'amqp://localhost'.
@@ -22,7 +28,7 @@ Para pleno funcionamento é necessário instalar e rodar o RabbitMQ localmente, 
 - 3º Abra o executável e avance até finalizar a instalação
 - 4º Acesse: https://www.rabbitmq.com/download.html
 - 5º Selecione o instalador de acordo com seu Sistema Operacional
-- 6º Execute o instalador com as configurações padrões
+- 6º Execute o instalador com as configurações padrão
 
 ## Servidor Express (index.js)
 
