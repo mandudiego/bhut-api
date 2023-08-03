@@ -1,5 +1,5 @@
 const amqp = require('amqplib');
-
+const axios = require('axios')
 async function connectToRabbitMQ() {
     try {
         // Estabelece a conexão com o servidor RabbitMQ na URL 'amqp://localhost'
@@ -46,13 +46,13 @@ async function consumeFromQueue(channel) {
                 channel.ack(message);
 
                 // Envia o webhook para a URL desejada com os dados do novo carro
-                // try {
-                //     const webhookURL = 'url do webhook'
-                //     await axios.post(webhookURL, carData)
-                //     console.log('Webhook enviado')
-                // } catch (error) {
-                //     console.log('Erro ao enviar webhook', error)
-                // }
+                 try {
+                    const webhookURL = 'https://webhook.site/9766d4ff-a609-4537-9d48-ad4c48913a28'
+                     await axios.post(webhookURL, carData)
+                     console.log('Webhook enviado')
+                 } catch (error) {
+                     console.log('Erro ao enviar webhook', error)
+                }
             }
         });
     } catch (error) {
