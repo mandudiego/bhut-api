@@ -5,8 +5,8 @@ const logController = require('./controllers/logController')
 const {connectToRabbitMQ} = require('./rabbitmq')
 
 
-// Cria uma Promise que resolve quando a conexão com o RabbitMQ for estabelecida
-const channelPromise = connectToRabbitMQ();
+// Inicia conexão com o RabbitMQ
+connectToRabbitMQ();
 
 // Serviço: listCars - Retorna os dados do endpoint 'http://api-test.bhut.com.br:3000/api/cars'
 routes.get('/api/listCars', carController.listCars);
