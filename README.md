@@ -49,7 +49,7 @@ Primeiramente clone o repositorio
 
 ```bash
 # Instale as dependências do projeto
-git clone https://github.com/ebertoncello12/API-BHUT.git
+git clone 
 ```
 ```bash
 # Instale as dependências do projeto
