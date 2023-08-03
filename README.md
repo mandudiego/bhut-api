@@ -39,7 +39,7 @@ O servidor fornece as seguintes rotas:
 - GET /api/logs: Obtém os registros de log dos carros criados.
 - POST /api/createCar: Cria um novo registro de carro, armazena na API externa e registra o evento no banco de dados.
 
-## 🛠️ Rodando o projeto
+## 💻 Rodando o projeto
 
 ###  Instalação das Dependências
 
@@ -71,7 +71,7 @@ npm start
 ```
 - O servidor irá iniciar com a mensagem 'Express started at http://localhost:3000'
 
-## Testando a Aplicaçao 
+## Testando a Aplicação
 - Após seguir as etapas de instalação e configuração do projeto, você pode testar a aplicação utilizando uma Ferramente Postman ou qualquer outra ferramenta similar para fazer requisições HTTP.
 ## Serviço 1 - listCars:
 - Abra o Postman ou qualquer outra ferramenta de Requisiçoes HTTP.
